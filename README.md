@@ -18,6 +18,8 @@ For each method and size it measures:
 - sparse random projection;
 - the lab's Matching Sparsity random projection.
 
+**New to the topic?** [CONCEPTS.md](CONCEPTS.md) explains every idea in pictures, starting from basic maths: points, distance, variance and regression, then PCA, random projection, clustering and the scores.
+
 **Credit:** the Matching Sparsity random projection class and the lab's clustering and metric functions will be copied unchanged from the lab's repository (MIT licence, © 2024 moussa-lab).
 
 Results, figures and limitations will be added here once the runs are done.
