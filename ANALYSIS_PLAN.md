@@ -1,10 +1,10 @@
 # Analysis plan
 
-Written on **24 November 2026, before any code was run or any data downloaded**. The rules below are fixed now. Any later change will be listed at the end of this file, with the date and the reason, as in the [AIDev pilot](https://github.com/laroshan/aidev-agent-pr-pilot).
+The rules below were fixed before any code was run or any data downloaded. Any later change will be listed at the end of this file, with the date and the reason, as in the [AIDev pilot](https://github.com/laroshan/aidev-agent-pr-pilot).
 
 ## 1. Question
 
-The Moussa Lab's benchmark ([Abdelnaby & Moussa, bioRxiv 2025](https://doi.org/10.1101/2025.02.04.636499); [J. Comput. Biol. 2026](https://doi.org/10.1177/15578666261436821)) compares PCA with random projection (RP) for single-cell RNA-seq, on datasets of about 2,900 to 10,500 cells. Its scalability test covers 1,000 to 10,000 cells.
+The original benchmark ([Abdelnaby & Moussa, bioRxiv 2025](https://doi.org/10.1101/2025.02.04.636499); [J. Comput. Biol. 2026](https://doi.org/10.1177/15578666261436821)) compares PCA with random projection (RP) for single-cell RNA-seq, on datasets of about 2,900 to 10,500 cells. Its scalability test covers 1,000 to 10,000 cells.
 
 This project asks how the same methods behave at up to **250,000 cells**, with the data kept **sparse**:
 1. How do run time and peak memory grow with the number of cells?
