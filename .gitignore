@@ -1,0 +1,10 @@
+# Private: quotes the outreach email and holds the personal schedule.
+PLAN.md
+private/
+
+# Downloads, per-size matrices and embeddings (scripts recreate them).
+data/
+
+.venv/
+__pycache__/
+.DS_Store
